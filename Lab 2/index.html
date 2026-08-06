@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BAUET Web Programming</title>
+  </head>
+  <body>
+    <h1>Hello</h1>
+    <h2>Welcome</h2>
+    <h3>to</h3>
+    <h4>BAUET</h4>
+    <h5>Web Programming</h5>
+    <h6>Laboratory</h6>
+    <p>HTML is the backbone of the web.</p>
+
+    <hr />
+    <h3>Use of Paragraphs & Inline Text Elements</h3>
+    <p>
+      HTML is <strong>not a programming language</strong>. It is a
+      <em>markup</em> language.
+    </p>
+
+    <p>
+      Use <code>&lt;!DOCTYPE html></code> for HTML5. Use
+      <mark>this tag</mark> to highlight important text.
+    </p>
+    <hr />
+    <p>After a thematic break.</p>
+
+    <hr />
+    <h3>Use of Links</h3>
+    <!-- Internal anchor link -->
+    <p><a href="#list"> Jump to List section </a></p>
+
+    <!-- External link, new tab -->
+    <p>
+      <a style="color: red" href="https://bauet.ac.bd" target="_blank">
+        BAUET Website
+      </a>
+    </p>
+
+    <!-- Email link -->
+    <p><a href="mailto:info@bauet.ac.bd"> Send email </a></p>
+
+    <hr />
+    <h3>Adding Images and Figure Elements</h3>
+    <img
+      src="assets/image1.png"
+      alt="alternative name of image"
+      width="200"
+      height="200"
+    />
+    <figure>
+      <img src="assets/image2.png" alt="BAUET campus aerial view" width="200" />
+      <figcaption>Fig 1. Crystal of Aurora Vector</figcaption>
+    </figure>
+
+    <hr />
+    <h3 id="list">Use of Lists</h3>
+    <!-- Unordered — order does not matter -->
+    <ul>
+      <li>HTML5 Semantics</li>
+      <li>CSS3 Layouts</li>
+      <li>JavaScript DOM</li>
+    </ul>
+
+    <!-- Ordered — sequence matters -->
+    <ol>
+      <li>Write the HTML structure</li>
+      <li>Apply CSS styles</li>
+      <li>Add JavaScript behaviour</li>
+    </ol>
+
+    <!-- Term-definition pairs -->
+    <dl>
+      <dt>HTML</dt>
+      <dd>HyperText Markup Language — describes structure</dd>
+
+      <dt>CSS</dt>
+      <dd>Cascading Style Sheets — controls presentation</dd>
+
+      <dt>JS</dt>
+      <dd>JavaScript — adds interactivity</dd>
+    </dl>
+
+    <hr />
+    <h3>Use of Tables</h3>
+    <table border="1">
+      <caption>
+        Weekly Lab Schedule
+      </caption>
+
+      <thead>
+        <tr>
+          <th>Day</th>
+          <th>09:00–11:00</th>
+          <th>11:00–13:00</th>
+          <th>13:00–15:00</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Sunday</td>
+          <td>Web Programming</td>
+          <td>Data Structures</td>
+          <td>Software Engineering</td>
+        </tr>
+        <tr>
+          <td>Monday</td>
+          <td>Database Systems</td>
+          <td>Computer Networks</td>
+          <td>Artificial Intelligence</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="4">Summer 2026</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
