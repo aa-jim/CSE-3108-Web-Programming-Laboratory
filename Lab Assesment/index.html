@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div href="#home" title="Home" class="nav-logo">My Portfolio</div>
+      <div class="nav-buttons">
+        <a href="#home" title="Home"
+          ><button><i data-lucide="home"></i></button
+        ></a>
+        <a href="#education" title="Education"
+          ><button><i data-lucide="graduation-cap"></i></button
+        ></a>
+        <a href="#skills" title="Skills"
+          ><button><i data-lucide="code-2"></i></button
+        ></a>
+        <a href="#projects" title="Projects"
+          ><button><i data-lucide="folder-kanban"></i></button
+        ></a>
+        <a href="#hobbies" title="Hobbies"
+          ><button><i data-lucide="heart"></i></button
+        ></a>
+        <a href="#contact" title="Contact"
+          ><button><i data-lucide="mail"></i></button
+        ></a>
+      </div>
+    </nav>
+
+    <section id="home" class="profile">
+      <img
+        class="profile-img"
+        src="../assets/image3.jpeg"
+        alt="profile photo"
+      />
+      <div class="information">
+        <h1>Hello, I'm <span>Abdullah Hil Kafi</span></h1>
+        <ul>
+          <li><strong>Name:</strong> Abdullah Hil Kafi</li>
+          <li><strong>ID:</strong> 0812410205101019</li>
+          <li><strong>Department:</strong> Computer Science & Engineering</li>
+          <li><strong>Semester:</strong> 3rd Year 1st Semester</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <h2 class="section-title"><i data-lucide="user"></i> About Me</h2>
+      <p>
+        I am a Computer Science & Engineering student at Bangladesh Army
+        University of Engineering and Technology (BAUET). Passionate about
+        problem solving, web development, and building simple, user-friendly
+        products. I enjoy learning new technologies and turning ideas into real
+        projects.
+      </p>
+    </section>
+
+    <section id="education">
+      <h2 class="section-title">
+        <i data-lucide="graduation-cap"></i> Education
+      </h2>
+      <div class="education">
+        <div class="edu-card school">
+          <h3>Harimohan Govt. High School</h3>
+          <p class="edu-level">Secondary School Certificate (SSC)</p>
+          <ul>
+            <li><strong>Board:</strong> Rajshahi</li>
+            <li><strong>Passing Year:</strong> 2021</li>
+            <li><strong>Result:</strong> GPA 5.00</li>
+            <li><strong>Group:</strong> Science</li>
+          </ul>
+        </div>
+        <div class="edu-card college">
+          <h3>Shahid Buddhijibi Govt. College</h3>
+          <p class="edu-level">Higher Secondary Certificate (HSC)</p>
+          <ul>
+            <li><strong>Board:</strong> Rajshahi</li>
+            <li><strong>Passing Year:</strong> 2023</li>
+            <li><strong>Result:</strong> GPA 4.50</li>
+            <li><strong>Group:</strong> Science</li>
+          </ul>
+        </div>
+        <div class="edu-card uni">
+          <h3>
+            Bangladesh Army University of Engineering & Technology (BAUET)
+          </h3>
+          <p class="edu-level">B.Sc. in CSE (Running)</p>
+          <ul>
+            <li><strong>Board:</strong> University</li>
+            <li><strong>Passing Year:</strong> 2026 (Expected)</li>
+            <li><strong>Result:</strong> CGPA 3.XX</li>
+            <li><strong>Semester:</strong> 3.1</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2 class="section-title"><i data-lucide="wrench"></i> Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3><i data-lucide="code-2"></i> Programming</h3>
+          <div class="tags"><span>C</span><span>C++</span></div>
+        </div>
+        <div class="skill-card">
+          <h3><i data-lucide="globe"></i> Web Technologies</h3>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>Tailwind</span
+            ><span>JavaScript</span><span>Node js</span><span>React</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3><i data-lucide="wrench"></i> Tools & Others</h3>
+          <div class="tags">
+            <span>Git & GitHub</span><span>VS Code</span><span>Figma</span
+            ><span>MS Office</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3><i data-lucide="users"></i> Soft Skills</h3>
+          <div class="tags">
+            <span>Teamwork</span><span>Problem Solving</span
+            ><span>Time Management</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2 class="section-title">
+        <i data-lucide="folder-kanban"></i> Projects
+      </h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Personal MLBB Guide Project</h3>
+          <p>For mobile legends players who wants guide to buy event skins</p>
+          <div class="tags small">
+            <span>HTML</span><span>Tailwind</span><span>Node js</span>
+          </div>
+          <div class="project-links">
+            <a href="https://skinroute.events-mlbb.workers.dev"
+              ><i data-lucide="external-link"></i> Live Demo</a
+            >
+          </div>
+        </div>
+        <div class="project-card">
+          <h3>Todo List App</h3>
+          <p>
+            Simple task manager with add, delete and local storage support.
+            Minimal UI focused on usability.
+          </p>
+          <div class="tags small">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="../Practice/Todo List/index.html"
+              ><i data-lucide="external-link"></i> Live Demo</a
+            >
+          </div>
+        </div>
+        <div class="project-card">
+          <h3>Tech Fest Registration Form</h3>
+          <p>
+            Registration system for BAUET Tech Fest 2026 with validation for
+            email, phone and student ID.
+          </p>
+          <div class="tags small">
+            <span>HTML</span><span>Forms</span><span>Validation</span>
+          </div>
+          <div class="project-links">
+            <a href="../Tasks/task3.html"
+              ><i data-lucide="external-link"></i> Live Demo</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="hobbies">
+      <h2 class="section-title"><i data-lucide="heart"></i> Hobbies</h2>
+      <div class="hobbies-grid">
+        <div class="hobby-card">
+          <i data-lucide="code"></i>
+          <p>Coding</p>
+        </div>
+        <div class="hobby-card">
+          <i data-lucide="gamepad-2"></i>
+          <p>Gaming</p>
+        </div>
+        <div class="hobby-card">
+          <i data-lucide="film"></i>
+          <p>Movies</p>
+        </div>
+        <div class="hobby-card">
+          <i data-lucide="music"></i>
+          <p>Music</p>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact" class="footer">
+      <h2><i data-lucide="mail"></i> Contact</h2>
+      <p>Feel free to reach out for collaboration or just a friendly hello!</p>
+      <div class="contact-links">
+        <a href="mailto:your.email@bauet.ac.bd"
+          ><i data-lucide="mail"></i> abdullahaljim2@gmail.com</a
+        >
+        <a href="phone"><i data-lucide="phone"></i> +880 1701051320</a>
+        <a href="#">GitHub</a>
+        <a href>LinkedIn</a>
+      </div>
+      <p class="copyright">© 2026 A A Jim &mdash; Built with HTML & CSS</p>
+    </footer>
+
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
